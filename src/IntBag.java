@@ -181,6 +181,10 @@ public class IntBag {
         return output;
     }
 
+    /**
+     * Iterator class 
+     * 
+     */
     public Iterator iterator(){
         return new IntBagIterator(this);
     }

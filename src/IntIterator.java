@@ -1,3 +1,0 @@
-public interface IntIterator {
-    int next();
-}
