@@ -1,12 +1,12 @@
 /**
- * Lab01 Instructions found on moodle
+ * Lab03 Instructions found on moodle
  * 
  * Style guidlines URL:-
  * http://www.cs.bilkent.edu.tr/~adayanik/cs101/practicalwork/styleguidelines.htm
  * 
  * 
  * @author Mostafa Higazy
- * @version 18/06/2021
+ * @version 02/07/2021
  */
 import java.util.*;
 
