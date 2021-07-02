@@ -1,13 +1,13 @@
 
 public class IntBagStepIterator extends IntBagIterator{
     
-    int n;
+    int m;
     IntBag bag2;
     int idx = 0;
 
-    public IntBagStepIterator(int n, IntBag aBag){
+    public IntBagStepIterator(int m, IntBag aBag){
         super(aBag);
-        this.n=n;
+        this.m=m;
         bag2 = aBag;
     }
     public boolean hasNext() 
@@ -23,8 +23,8 @@ public class IntBagStepIterator extends IntBagIterator{
     //next method
     public Integer next() {
       if(hasNext()){
-        idx += n;
-        return bag2.getIdx(idx-n);
+        idx += m;
+        return bag2.getIdx(idx-m);
       }
       else
         return null;
