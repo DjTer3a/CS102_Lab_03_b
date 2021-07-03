@@ -8,7 +8,6 @@
  * @author Mostafa Higazy
  * @version 02/07/2021
  */
-import java.util.*;
 
 public class IntBag {
     int[] bag;
@@ -16,7 +15,7 @@ public class IntBag {
 
     //Empty Constructor
     public IntBag(){
-        this.bag = new int[4];
+        this.bag = new int[10];
         this.bag[bag.length-1] = -999;
     }
 
@@ -190,7 +189,7 @@ public class IntBag {
     }
 
     public Iterator iterator(int m){
-        return new IntBagStepIterator(n, this);
+        return new IntBagStepIterator(m, this);
     }
 
 

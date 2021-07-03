@@ -1,4 +1,13 @@
-import java.util.*;
+/**
+ * Lab03 Instructions found on moodle
+ * 
+ * Style guidlines URL:-
+ * http://www.cs.bilkent.edu.tr/~adayanik/cs101/practicalwork/styleguidelines.htm
+ * 
+ * 
+ * @author Mostafa Higazy
+ * @version 02/07/2021
+ */
 
 public class IntBagIterator implements Iterator{
 
@@ -34,7 +43,7 @@ public class IntBagIterator implements Iterator{
      * method to remove element in the array.
      *  @return void  
      */
-    public void delete(){
+    public void remove(){
         aBag.remove(idx);
     }
  
