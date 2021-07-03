@@ -15,7 +15,7 @@ public class IntBag {
 
     //Empty Constructor
     public IntBag(){
-        this.bag = new int[10];
+        this.bag = new int[1];
         this.bag[bag.length-1] = -999;
     }
 

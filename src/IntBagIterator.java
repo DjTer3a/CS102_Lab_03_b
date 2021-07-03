@@ -22,7 +22,7 @@ public class IntBagIterator implements Iterator{
     //constructor
     public IntBagIterator(IntBag aBag){
         this.aBag =aBag;
-        idx=0;
+        idx = 0;
     }
 
     /**

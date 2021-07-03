@@ -23,7 +23,6 @@ public class TestIterators
       bag.add(5);
       bag.add(6);
       bag.add(7);
-      bag.toString();
 
     Iterator i, j;
     
@@ -32,15 +31,22 @@ public class TestIterators
     
     i = bag.iterator(1);
 
-
+    int count =0;
     while ( i.hasNext() )
     {
             System.out.println( i.next() );
-            j = bag.iterator(1);
+            j = bag.iterator(110);
+            count++;
             while ( j.hasNext() )
             {
                     System.out.println( "--" + j.next() );
+                   
+                    
+                    
             }
+            System.out.println("The array has been iterated this many times: "+ count);
+            
     } 
+    System.out.println(bag.toString());
   }
 }
