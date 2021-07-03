@@ -35,7 +35,7 @@ public class TestIterators
     while ( i.hasNext() )
     {
             System.out.println( i.next() );
-            j = bag.iterator(110);
+            j = bag.iterator(1);
             count++;
             while ( j.hasNext() )
             {
